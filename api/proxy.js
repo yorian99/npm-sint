@@ -6,7 +6,7 @@ export default async function handler(req, res) {
   }
 
   // Ganti dengan URL Google Apps Script yang sudah dideploy
-  const GAS_URL = 'https://script.google.com/macros/s/AKfycby7F8QU4Xl6T92wd7x2zEJLwIxK864GGU7-DEqTJUQh6XONY9BWW3kat9V80YmO_WY-Ag/exec';
+  const GAS_URL = 'https://script.google.com/macros/s/AKfycbxOMX6wMmLw4cS22jloNmmuqWrmHYdvNYtMlq-82QrU_2qMG-MOAdPLZDrg7T-2qzb_/exec';
 
   try {
     const response = await fetch(GAS_URL, {
